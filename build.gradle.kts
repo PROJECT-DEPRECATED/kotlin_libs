@@ -6,6 +6,7 @@ val plVersion = property("pl_version")!!
 
 plugins {
     id("com.github.johnrengelman.shadow") version "7.1.2"
+    id("org.jetbrains.dokka") version "1.7.0"
     kotlin("jvm") version "1.7.0"
     `maven-publish`
     signing
